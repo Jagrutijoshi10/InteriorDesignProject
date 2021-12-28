@@ -7,6 +7,11 @@ import './scss/homePage.scss';
 import './scss/aboutUs.scss';
 import './scss/countUp.scss';
 import './scss/chooseUs.scss';
+import './scss/infoWithImage.scss';
+import './scss/galleryCards.scss';
+import './scss/owlCarousel.scss';
+import './scss/designGallery.scss';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

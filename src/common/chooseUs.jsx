@@ -18,32 +18,40 @@ const ChooseUs = () => {
                             <Col> <Card bg="dark" className="icon-width">
                                 <Card.Body>
                                 <BsPencilSquare  />
-
+                                <Card.Text className="text-size">Expert Designers Onboard</Card.Text> 
                                 </Card.Body>
+                                                            
                             </Card>
                             </Col>
-                            <Col> <Card bg="dark" className="icon-width">
-                            <Card.Body>
 
+                            <Col> 
+                            <Card bg="dark" className="icon-width">
+                            <Card.Body>
                                 <BsFillAwardFill />
-                                </Card.Body>
+                                <Card.Text className="text-size"> 45 Days Installation Guarantee</Card.Text> 
 
+                            </Card.Body>
                             </Card>
                             </Col>
-                            <Col> <Card bg="dark" className="icon-width">
+
+                            <Col> 
+                            <Card bg="dark" className="icon-width">
                             <Card.Body>
-
                                 <BsFillTrophyFill />
-                                </Card.Body>
+                                <Card.Text className="text-size">5 Years Warranty</Card.Text> 
 
+                            </Card.Body>
                             </Card>
                             </Col>
+
                         </Row>
                         <Row className="row-margin">
                             <Col> <Card bg="dark" className="icon-width">
                             <Card.Body>
 
                                 <BsWalletFill />
+                                <Card.Text className="text-size">Economical</Card.Text> 
+
                                 </Card.Body>
 
                             </Card>
@@ -52,6 +60,8 @@ const ChooseUs = () => {
                             <Card.Body>
 
                                 <BsFillTrophyFill />
+                                <Card.Text className="text-size">Trust and Transparency</Card.Text> 
+
                                 </Card.Body>
 
                             </Card>
@@ -60,6 +70,8 @@ const ChooseUs = () => {
                             <Card.Body>
 
                                 <BsFillEmojiSmileFill />
+                                <Card.Text className="text-size">High Customer Satisfaction</Card.Text> 
+
                                 </Card.Body>
 
                             </Card>

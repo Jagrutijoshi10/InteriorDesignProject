@@ -28,7 +28,7 @@ const HomePage = () => {
                         <span className="design-font">Free 3D design <br /> for your interior needs</span>
                     </Col>
                     <Col xs={6} md={6}>
-                        <img src={threeDDesign} />
+                        <img src={threeDDesign} alt="alternate img"/>
                     </Col>
                 </Row>
             </Container>

@@ -1,13 +1,13 @@
 import { Navbar } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import { Button } from 'react-bootstrap';
+// import Form from 'react-bootstrap/Form';
+// import FormControl from 'react-bootstrap/FormControl';
+// import { Button } from 'react-bootstrap';
 
 const NavBar = () => {
     return  <div>
-    <Navbar bg="light" expand="lg" bg="dark" variant="dark">
+    <Navbar  expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#">Interior Designs</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -18,15 +18,14 @@ const NavBar = () => {
             >
                 <Nav.Link href="home-page">Home</Nav.Link>
                 <Nav.Link href="about-us">About Us</Nav.Link>
+                <Nav.Link href="design-gallery">Design Gallery</Nav.Link>
                 <NavDropdown title="Link" id="navbarScrollingDropdown">
                     <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                     <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#" disabled>
-                    Link
-                </Nav.Link>
+               
             </Nav>
             {/* <Form className="d-flex">
                 <FormControl

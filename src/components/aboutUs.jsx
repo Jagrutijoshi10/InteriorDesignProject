@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Container, Col } from 'react-bootstrap';
+// import { Row, Container, Col } from 'react-bootstrap';
 import InfoWithImage from '../common/infoWithImage';
 import constants from '../constants';
 import aboutUs1 from '../assets/image-about-01.jpg';

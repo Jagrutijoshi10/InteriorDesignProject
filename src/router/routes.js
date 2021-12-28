@@ -6,6 +6,7 @@ import Cards from "../common/cards";
 import InfoWithImage from "../common/infoWithImage";
 import CountUpLoader from '../common/countUp';
 import chooseUs from "../common/chooseUs";
+import DesignGallery from "../components/designGallery";
 
 const ROUTES = [
     {
@@ -29,24 +30,29 @@ const ROUTES = [
         exact: true
     },
     {
-        path: './cards',
+        path: '/cards',
         component: Cards,
         exact: true
     },
     {
-        path: './infoWithImage',
+        path: '/info-with-image',
         component: InfoWithImage,
         exact: true
     },
     {
-        path: './countUp',
+        path: '/count-up',
         component: CountUpLoader,
         exact: true
 
     },
     {
-        path: './chooseUs',
+        path: '/choose-us',
         component: chooseUs,
+        exact: true
+    }, 
+    {
+        path: '/design-gallery',
+        component: DesignGallery,
         exact: true
     }
 ]
